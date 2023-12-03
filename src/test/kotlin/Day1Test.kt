@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Assertions.*
 class Day1Test {
 
     @Test
-    fun solve_works() {
+    fun solveDay1_works() {
         val input = "1abc2\n" +
                 "pqr3stu8vwx\n" +
                 "a1b2c3d4e5f\n" +
