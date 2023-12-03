@@ -15,7 +15,6 @@ class Day1 {
     private fun processLine(line: String): String {
         val regex = Regex("\\d")
         val matches = regex.findAll(line)
-        if (matches.count() == 1) return "${matches.first().value}${matches.first().value}"
 
         return "${matches.first().value}${matches.last().value}"
     }
